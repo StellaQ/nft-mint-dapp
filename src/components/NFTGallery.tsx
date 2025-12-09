@@ -1,3 +1,10 @@
+/**
+ * 实现 spec.md 需求 4: NFT 画廊 (Gallery)
+ * - 从智能合约读取用户的 tokenURI
+ * - 显示用户拥有的 NFT 列表
+ * - 支持 NFT 图片和元数据的展示
+ * - 提供分页或滚动浏览功能
+ */
 import React, { useState, useEffect } from 'react'
 import { ethers } from 'ethers'
 

@@ -1,3 +1,7 @@
+/**
+ * 主应用组件，整合所有功能模块
+ * 实现 spec.md 需求 1 (钱包连接) 和 需求 2 (余额显示) 的核心逻辑
+ */
 import { useState } from 'react'
 import { ethers } from 'ethers'
 import WalletConnect from './components/WalletConnect'
@@ -12,6 +16,7 @@ function App() {
   const [account, setAccount] = useState<string>('')
   const [balance, setBalance] = useState<string>('0')
 
+  // 实现 spec.md 需求 1: 钱包连接的核心逻辑
   const connectWallet = async () => {
     if (window.ethereum) {
       try {

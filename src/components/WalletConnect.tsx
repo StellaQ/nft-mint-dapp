@@ -1,3 +1,9 @@
+/**
+ * 实现 spec.md 需求 1: 钱包连接 (Connect)
+ * - 支持主流 Web3 钱包（如 MetaMask）的连接
+ * - 显示连接状态和当前账户地址
+ * - 处理连接失败和用户拒绝的情况
+ */
 import React from 'react'
 
 interface WalletConnectProps {

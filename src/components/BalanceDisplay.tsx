@@ -1,3 +1,9 @@
+/**
+ * 实现 spec.md 需求 2: 余额显示
+ * - 显示用户当前账户的 ETH 余额
+ * - 实时更新余额信息
+ * - 支持不同网络的余额查询
+ */
 import React from 'react'
 
 interface BalanceDisplayProps {

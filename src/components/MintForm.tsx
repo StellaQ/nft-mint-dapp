@@ -1,3 +1,10 @@
+/**
+ * 实现 spec.md 需求 3: NFT 铸造 (Mint)
+ * - 提供 mint() 函数调用接口
+ * - 支持用户输入铸造参数（如数量、价格等）
+ * - 显示铸造状态和交易确认
+ * - 处理交易失败和 gas 费估算
+ */
 import React, { useState } from 'react'
 import { ethers } from 'ethers'
 
